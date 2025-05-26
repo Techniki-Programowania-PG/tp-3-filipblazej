@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Asus/AppData/Local/Programs/Python/Python313/Include",
+                "C:/Users/Asus/AppData/Local/Programs/Python/Python313/Lib/site-packages/pybind11/include",
+                "${workspaceFolder}/matplotplusplus/source",
+                "C:/Users/Asus/Desktop/Projekt3/matplotplusplus/source",
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
