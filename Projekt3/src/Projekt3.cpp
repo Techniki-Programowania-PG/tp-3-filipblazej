@@ -68,27 +68,6 @@ std::vector<double> generuj_pila(double czestotliwosc, double czestotliwosc_prob
 	return pila;
 }
 
-/*
-std::vector<std::complex<double>> transformata(const std::vector<double>& sygnal)
-{
-	int liczba_probek = sygnal.size();
-
-	std::vector<std::complex<double>> transformata(liczba_probek);
-
-	for(size_t i = 0; i < liczba_probek; ++i)
-	{
-		std::complex<double> suma = 0;
-		for (size_t j = 0; j < liczba_probek; ++j)
-		{
-			suma = suma + (sygnal[j] * std::exp(std::complex<double>(0, (-2*M_PI*(static_cast<double>(i)/static_cast<double>(liczba_probek)) * j))));
-		}
-		transformata[i] = suma;
-	}
-
-	return transformata;
-}
-	*/
-
 std::vector<std::complex<double>> transformata(const std::vector<double>& sygnal)
 {
 	int liczba_probek = sygnal.size();
@@ -165,24 +144,6 @@ void wizualizacja_sygnalu(const std::vector<double>& sygnal)
 	matplot::title("Rysunek sygnalu");
 	matplot::show();
 }
-/*void wizualizacja_transformaty(const std::vector<std::complex<double>>& transformata)
-{
-	std::vector<int> x(transformata.size());
-	std::vector<double> y(transformata.size());
-	for (int i = 0; i < transformata.size(); ++i)
-	{
-	 x[i] = i;
-	 y[i] = std::abs(transformata[i]);
-	}
-
-	auto fig = matplot::figure(true);
-
-	matplot::stem(x, y);
-	matplot::xlabel("Probka");
-	matplot::ylabel("Amplituda");
-	matplot::title("Rysunek transformaty");
-	matplot::show();
-}*/
 
 void wizualizacja_transformaty(const std::vector<std::complex<double>>& transformata, double czestotliwosc_probek)
 {
