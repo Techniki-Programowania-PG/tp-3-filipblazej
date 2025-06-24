@@ -1,0 +1,6 @@
+﻿  Projekt4TechnikiProgramowania.cpp
+C:\Users\Asus\Desktop\Projekt4_TP\Projekt4TechnikiProgramowania\Projekt4TechnikiProgramowania.cpp(138,24): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Asus\Desktop\Projekt4_TP\Projekt4TechnikiProgramowania\Projekt4TechnikiProgramowania.cpp(187,31): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Asus\Desktop\Projekt4_TP\Projekt4TechnikiProgramowania\Projekt4TechnikiProgramowania.cpp(189,73): warning C4244: "argument": konwersja z "int" do "Gdiplus::REAL", możliwa utrata danych
+C:\Users\Asus\Desktop\Projekt4_TP\Projekt4TechnikiProgramowania\Projekt4TechnikiProgramowania.cpp(253,13): warning C4312: "typ rzutowania": konwersja z "int" na "HMENU" jest większej wielkości
+  Projekt4TechnikiProgramowania.vcxproj -> C:\Users\Asus\Desktop\Projekt4_TP\Projekt4TechnikiProgramowania\x64\Debug\Projekt4TechnikiProgramowania.exe
